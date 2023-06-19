@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Météo</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <input type="text" placeholder="entrez votre localisation">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="img/erreur404.png">
+            <p>oups cet endroit est introuvable :/</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+        </div>
+
+        <div class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Humidité</p>
+                </div>
+            </div>
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Vent</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/6183441b2c.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
